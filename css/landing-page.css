@@ -11,9 +11,21 @@ html {
 }
 
 body,
+
+@font-face {
+    font-family: 'Dekar';
+    src: url('fonts/Dekar.eot');
+    src: url('fonts/Dekar.eot') format('embedded-opentype'),
+         url('fonts/Dekar.woff2') format('woff2'),
+         url('fonts/Dekar.woff') format('woff'),
+         url('fonts/Dekar.ttf') format('truetype'),
+         url('fonts/Dekar.svg#Dekar') format('svg');
+}
 h1{
   font-weight: 200;
   letter-spacing: 1px;
+  font-family: 'Dekar';
+
   },
 h2{
   letter-spacing: 1px;
@@ -47,7 +59,7 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     font-weight: 300;
-    color: #f5f5f5;
+    color: #333333;
     background: url(../img/intro-bg.jpg) no-repeat center center;
     background-size: cover;
 }
@@ -63,16 +75,19 @@ h6 {
     margin: 0;
     /*text-shadow: 2px 2px 3px rgba(0,0,0,0.6);*/
     font-size: 5em;
+
 }
 
 .intro-divider {
-    width: 400px;
-    border-top: 1px solid #f5f5f5;
+    width: 350px;
+    border-top: 1px solid #333333;
     border-bottom: 0px solid rgba(0,0,0,0.2);
 }
 
 .intro-message > h3 {
     /*text-shadow: 2px 2px 3px rgba(0,0,0,0.6);*/
+    font-family: 'Dekar';
+
 }
 
 @media(max-width:767px) {
@@ -95,7 +110,7 @@ h6 {
     }
 
     .intro-divider {
-        width: 100%;
+        width: 35%;
     }
 }
 
@@ -108,7 +123,7 @@ h6 {
 
 .content-section-a {
     padding: 50px 0;
-    background-color: #f5f5f5;
+    background-color: #fafafa;
 }
 
 .content-section-b {
@@ -526,7 +541,7 @@ h6 {
 }
 
 .banner {
-    padding: 150px 0;
+    padding: 200px 0;
     color: #f5f5f5;
     background: url(../img/banner-bg.jpg) no-repeat center center;
     background-size: cover;
