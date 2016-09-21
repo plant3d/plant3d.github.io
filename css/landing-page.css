@@ -11,9 +11,21 @@ html {
 }
 
 body,
+
+@font-face {
+    font-family: 'Dekar';
+    src: url('fonts/Dekar.eot');
+    src: url('fonts/Dekar.eot') format('embedded-opentype'),
+         url('fonts/Dekar.woff2') format('woff2'),
+         url('fonts/Dekar.woff') format('woff'),
+         url('fonts/Dekar.ttf') format('truetype'),
+         url('fonts/Dekar.svg#Dekar') format('svg');
+}
 h1{
   font-weight: 200;
   letter-spacing: 1px;
+  font-family: 'Dekar';
+
   },
 h2{
   letter-spacing: 1px;
@@ -47,7 +59,7 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     font-weight: 300;
-    color: #f5f5f5;
+    color: #333333;
     background: url(../img/intro-bg.jpg) no-repeat center center;
     background-size: cover;
 }
@@ -63,16 +75,19 @@ h6 {
     margin: 0;
     /*text-shadow: 2px 2px 3px rgba(0,0,0,0.6);*/
     font-size: 5em;
+
 }
 
 .intro-divider {
-    width: 400px;
-    border-top: 1px solid #f5f5f5;
+    width: 350px;
+    border-top: 1px solid #333333;
     border-bottom: 0px solid rgba(0,0,0,0.2);
 }
 
 .intro-message > h3 {
     /*text-shadow: 2px 2px 3px rgba(0,0,0,0.6);*/
+    font-family: 'Dekar';
+
 }
 
 @media(max-width:767px) {
@@ -95,7 +110,7 @@ h6 {
     }
 
     .intro-divider {
-        width: 100%;
+        width: 35%;
     }
 }
 
@@ -108,7 +123,7 @@ h6 {
 
 .content-section-a {
     padding: 50px 0;
-    background-color: #f5f5f5;
+    background-color: #fafafa;
 }
 
 .content-section-b {
@@ -489,19 +504,7 @@ h6 {
         color: #fff;
         font-size: 0.875rem;
       }
-      .modGallery ul.gallery li a:hover .overlay {
-        opacity: 1;
-      }
-      .modGallery ul.gallery li a:hover .overlay .thumb-info {
-        -moz-transition-duration: 0.4s;
-        -o-transition-duration: 0.4s;
-        -webkit-transition-duration: 0.4s;
-        transition-duration: 0.4s;
-        position: relative;
-        top: 50%;
-        margin-top: -26px;
-        opacity: 1;
-      }
+
       .modGallery ul.gallery li a:hover img {
         -moz-transform: scale(1.1);
         -ms-transform: scale(1.1);
@@ -526,7 +529,7 @@ h6 {
 }
 
 .banner {
-    padding: 150px 0;
+    padding: 200px 0;
     color: #f5f5f5;
     background: url(../img/banner-bg.jpg) no-repeat center center;
     background-size: cover;
@@ -547,7 +550,61 @@ h6 {
     float: right;
     margin-top: 0;
 }
+.button, button, input[type='button'], input[type='reset'], input[type='submit'] {
+    position: relative;
+    background-color: transparent;
+    border: .2rem solid #ffffff;
+    border-radius: 0rem;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 4rem;
+    font-weight: 500;
+    height: 8rem;
+    letter-spacing: .1rem;
+    line-height: 7rem;
+    padding: 0 8rem;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap
+}
+.button:hover{
+  background-color: transparent;
+  border-color: #d2fcb2;
+  color: #d2fcb2;
+  text-decoration: none;
+}
 
+
+
+
+.bannerbottom {
+    padding: 180px 0;
+    color: #f5f5f5;
+    background: url(../img/bottom_banner_bw.jpg) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/*.bannerbottom:hover {
+    background: url(../img/bottom_banner_blured.jpg) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}*/
+
+.bannerbottom h2 {
+    margin: 0;
+    /*text-shadow: 2px 2px 3px rgba(0,0,0,0.6);*/
+    font-size: 3em;
+}
+
+.bannerbottom ul {
+    margin-bottom: 0;
+}
+
+.bannerbottom-social-buttons {
+    float: right;
+    margin-top: 0;
+}
 /*@media(max-width:1199px) {
     ul.banner-social-buttons {
         float: left;
@@ -557,6 +614,11 @@ h6 {
 
 @media(max-width:767px) {
     .banner h2 {
+        margin: 0;
+        /*text-shadow: 2px 2px 3px rgba(0,0,0,0.6);*/
+        font-size: 3em;
+    }
+    .bannerbottom h2 {
         margin: 0;
         /*text-shadow: 2px 2px 3px rgba(0,0,0,0.6);*/
         font-size: 3em;
