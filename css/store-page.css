@@ -387,6 +387,7 @@ img.center{
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
   font-size: 22px;
   font-weight: 400;
+  font-style: italic;
 }
 
 .portfolio-box:hover .portfolio-box-caption, .portfolio-box:focus .portfolio-box-caption {
