@@ -180,6 +180,30 @@ if (typeof jQuery === 'undefined') {
  * ======================================================================== */
 
 
+$(window).on('scroll',function(){
+
+    if(window_width > 992){
+        gaia.checkScrollForParallax();
+    }
+
+});
+
+  checkScrollForParallax: debounce(function() {
+        	$('.parallax').each(function() {
+        	    var $elem = $(this);
+
+        	    if(isElementInViewport($elem)){
+                  var parent_top = $elem.offset().top;
+                  var window_bottom = $(window).scrollTop();
+                  var $image = $elem.children('.image');
+
+            	  oVal = ((window_bottom - parent_top) / 3);
+                  $image.css('transform','translate3d(0px, ' + oVal + 'px, 0px)');
+        	    }
+            });
+
+    }, 6),
+
 +function ($) {
   'use strict';
 

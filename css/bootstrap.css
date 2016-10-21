@@ -1410,7 +1410,9 @@ a.bg-danger:focus {
 .page-header {
   padding-bottom: 9px;
   margin: 40px 0 20px;
-  border-bottom: 1px solid #eee;
+  /*border-bottom: 1px solid #eee;*/
+  letter-spacing: .5px;
+
 }
 ul,
 ol {
@@ -4177,7 +4179,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 @media (min-width: 768px) {
   .navbar-header {
-    float: left;
+    float: right !important;
+    margin-right: -1px;
   }
 }
 .navbar-collapse {
@@ -4229,8 +4232,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .container-fluid > .navbar-header,
 .container > .navbar-collapse,
 .container-fluid > .navbar-collapse {
-  margin-right: -15px;
-  margin-left: -15px;
+
 }
 @media (min-width: 768px) {
   .container > .navbar-header,
@@ -4238,12 +4240,15 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .container > .navbar-collapse,
   .container-fluid > .navbar-collapse {
     margin-right: 0;
-    margin-left: 0;
+    margin-left: 1000;
   }
 }
 .navbar-static-top {
-  z-index: 1000;
-  border-width: 0 0 1px;
+  top:0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  background-color: transparent;
 }
 @media (min-width: 768px) {
   .navbar-static-top {
@@ -4251,8 +4256,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-fixed-top,
-.navbar-fixed-bottom {
-  position: fixed;
+.navbar-fixed-bottom,.navbar-header {
   right: 0;
   left: 0;
   z-index: 1030;
@@ -4265,7 +4269,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-fixed-top {
   top: 0;
-  border-width: 0 0 1px;
+  border-width: 0 0 0;
 }
 .navbar-fixed-bottom {
   bottom: 0;
@@ -4487,10 +4491,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
   .navbar-right {
     float: right !important;
-    margin-right: -15px;
+
   }
   .navbar-right ~ .navbar-right {
-    margin-right: 0;
+    margin-right: 15px;
   }
 }
 .navbar-default {
