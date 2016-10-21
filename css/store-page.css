@@ -56,6 +56,7 @@ a:hover{
 
 .img-centered {
   margin: 0 auto;
+  width: 500px;
 }
 p.store-header{
   text-align: center;
@@ -113,6 +114,10 @@ hr {
 }
 
 @media(max-width:767px) {
+  .img-centered {
+    margin: 0 auto;
+    width: 80%;
+  }
   .topcorner{
      position:absolute;
      top:0;
