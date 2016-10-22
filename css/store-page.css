@@ -112,8 +112,13 @@ hr {
 .topcorner a{
   color: rgba(240, 95, 64, 1);
 }
-
-@media(max-width:767px) {
+@media(max-width:480px) {
+  .img-centered {
+    margin: 0 auto;
+    width: 95%;
+  }
+}
+@media(max-width:767px and min-width: 480px) {
   .img-centered {
     margin: 0 auto;
     width: 80%;
