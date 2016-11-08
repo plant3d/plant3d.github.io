@@ -53,7 +53,10 @@ a:hover{
     letter-spacing: 1px;
 
 }
-
+.img-padding{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
 .img-centered {
   margin: 0 auto;
   width: 500px;
