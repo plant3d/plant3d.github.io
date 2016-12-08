@@ -51,6 +51,7 @@ a:hover{
     font-size: 18px;
     font-weight: 300;
     letter-spacing: 1px;
+    padding-bottom: 10px;
 
 }
 .img-padding{
@@ -166,8 +167,8 @@ hr {
     letter-spacing: 2px;
 }
 p.content-body{
-  padding-bottom: 20px;
-  padding-top: 20px;
+  padding-bottom: 30px;
+  padding-top: 30px;
   text-align: justify;
   font-size: 18px;
   font-weight: 300;
