@@ -357,7 +357,21 @@ img.center{
   -moz-transition: all 0.35s ease-in-out;
   transition: all 0.35s ease-in-out;
   /*mix-blend-mode: overlay;*/
-
+}
+#elfogyott {
+  color: white;
+  opacity: 0;
+  display: block;
+  background: rgba(20, 20, 20, .3);
+  position: absolute;
+  top: 0;
+  align-self: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
 }
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
   width: 100%;
@@ -400,7 +414,10 @@ img.center{
 .portfolio-box:hover .portfolio-box-caption, .portfolio-box:focus .portfolio-box-caption {
   opacity: .9;
 }
-.portfolio-box:hover .portfolio-box-caption .portfolio-box-caption-content, .portfolio-box:focus .portfolio-box-caption .portfolio-box-caption-content {
+#elfogyott-kep:hover, #elfogyott:hover{
+  filter: grayscale(100%);
+}
+.portfolio-box:hover .portfolio-box-caption .portfolio-box-caption-content, .portfolio-box:focus .portfolio-box-caption .portfolio-box-caption-content ,#elfogyott:hover{
   opacity: 1;
 }
 .portfolio-box:focus {
