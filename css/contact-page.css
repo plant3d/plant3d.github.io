@@ -8,6 +8,7 @@ body,
 html {
     width: 100%;
     height: 100%;
+    background-color: #fbfbfb;
 }
 
 body,
@@ -62,7 +63,8 @@ a:hover{
   margin: 0 auto;
   width: 500px;
 }
-
+p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
 p.store-header{
   text-align: center;
   font-weight: 400;
@@ -70,28 +72,37 @@ p.store-header{
   color: #777;
 }
 header {
-  min-height: 22vw;
+  /*min-height: 200px;*/
   color: #333333;
-  background: url(../img/store_banner_bw.jpg) no-repeat center center;
+  /*background: url(../img/store_banner_bw.jpg) no-repeat center center;*/
   background-attachment: scroll;
   background-size: cover;
 }
 header .container {
-  padding-top: 75px;
-  padding-bottom: 75px;
+  padding-top: 120px;
+  padding-bottom: 0px;
+
 }
 header img {
   display: block;
-  margin: 0 auto 20px;
+  /*margin: 20px auto 20px;*/
+  padding-left: 30px;
+  padding-right: 30px;
+
 }
 @media (min-width: 768px) {
+  div.col-sm-4{
+    align-items: center;
+  }
   header .container {
-    padding-top: 150px;
-    padding-bottom: 120px;
+    padding-top: 120px;
+    padding-bottom: 0px;
   }
   header img {
     display: block;
     margin: 0 auto 0px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
 hr {
@@ -163,7 +174,15 @@ hr {
         width: 35%;
     }
 }
-
+img.img-crcl{
+   border-radius: 50%;
+   width: 150px;
+   margin: 25px;
+   align-content: center;
+   display: block;
+    margin-left: auto;
+    margin-right: auto
+}
 .network-name {
     text-transform: uppercase;
     font-size: 14px;
@@ -172,15 +191,23 @@ hr {
 }
 p.content-body{
   padding-bottom: 30px;
-  padding-top: 30px;
+  padding-top: 20px;
   text-align: justify;
   font-size: 18px;
   font-weight: 300;
   letter-spacing: 1px;
 }
+p.elerhetoseg{
+  padding-bottom: 0px;
+  padding-top: 20px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
 .content-section-a {
     margin-bottom: 16px;
-    padding-top: 50px;
+    padding-top: 40px;
     padding-bottom: 16px;
     text-align: justify;
 }
