@@ -1,592 +1,463 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-
+  <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="plant3d">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Plant3D store</title>
 
-    <title>PLANTED - Store</title>
-    <link rel="icon" href="img/favicon.png">
-    <!-- Bootstrap Core CSS -->
+    <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/store.css" rel="stylesheet">
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 
-    <!-- Custom CSS -->
-    <link href="css/store-page.css" rel="stylesheet">
-    <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Work+Sans:200,300,400,500&subset=latin-ext" rel="stylesheet" type="text/css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-
-</head>
-
-<body>
-
-    <!-- Header -->
+  </head>
+  <body>
     <header>
-         <div class="container">
-           <ul class="list-inline topcorner">
-             <li>
-               <a href="https://www.facebook.com/weplant3d"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i>&nbsp;</a>
-             </li>
-             <li>
-               <a href="https://www.instagram.com/plant3d/"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i>&nbsp;</a>
-             </li>
-             <li>
-               <a  href="contact.html" target="_top"><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i>&nbsp;</a>
-             </li>
-           </ul>
-             <div class="row">
-                 <div class="col-lg-12">
-                     <img class="img-centered" src="img/szeretnek.svg">
-                 </div>
-             </div>
-         </div>
-     </header>
-
-
-    <!-- Page Content -->
-    <div class="content-section-a">
-
-        <div class="container">
-          <div class="col-md-2 col-lg-2">
-          </div>
-                <div class="col-md-9 col-lg-9">
-                    <h1> Vedd a természetet a nyakadba</h1>
-                    <hr>
-                    <p class="lead">A plant3D egy szerethető, egyedi nyaklánc, mely a technológia és a természet szeretetének kombinációjából született meg. Szeretnénk megmutatni, hogy a kettő nem zárja ki egymást, sőt, tökéletes párost alkothatnak.</p>
-                    <div class="row">
-                                    <div class="col-md-4">
-                                        <div class="info-icon">
-                                          <img class="img-responsive img-padding" src="img/store-intro1.jpg" width="275px">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="info-icon">
-                                          <img class="img-responsive img-padding" src="img/store-intro2.jpg" width="275px">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="info-icon">
-                                          <img class="img-responsive img-padding" src="img/store-intro3.jpg" width="275px">
-                                        </div>
-                                    </div>
-                                    </div>
-                                    <p class="content-body">A medál alapja egy 3D nyomtatott ikozaéder, melyben egy apró pozsgás és léggyökeres növények kaptak helyet. A cseréplakóknak gondoskodásra és szeretetre van szükségük, így a lánc egy különleges társsá válhat viselése során. Figyelünk arra, hogy csak olyan növényeket válasszunk, melyek nem nőnek nagyra, így nem kell attól félned, hogy kinövi a lakóhelyét.</p>
-                                    <img class="img-responsive" src="img/store-intro-big.jpg">
-
-                </div>
-              </div>
-              <div class="col-md-2 col-lg-2">
+      <div class="container">
+        <div class="col-md-6">
+          <img class="left" id="logo" src="img/plant3d_logo.svg">
         </div>
-    </div>
+        <div class="col-md-6 right" id="headerlinks">
+          <p><a href="https://www.facebook.com/weplant3d"><i class="fa fa-facebook fa-lg " aria-hidden="true"></i>&nbsp;</a></p>
+          <p><a href="https://www.instagram.com/plant3d/"><i class="fa fa-instagram fa-lg " aria-hidden="true"></i>&nbsp;</a></p>
+          <p><a  href="mailto:weplant3d@gmail.com" target="_top"><i class="fa fa-envelope-o fa-lg " aria-hidden="true"></i>&nbsp;</a></p>
+        </div>
+      </div>
+    </header>
     <div class="container">
+      <!-- 6*2 block -->
+      <hr>
+      <hr>
+      <hr>
 
-
-        <div class="row">
-          <div class="col-md-2 col-lg-2">
-          </div>
-
-            <div class="col-md-9 col-lg-9">
-                <h1>Nyakláncok</h1>
-                <hr>
-                <p class="store-header">Rendeléshez kattints a Neked tetsző növényre!</p>
-
-            </div>
-            <div class="col-md-2 col-lg-2">
-            </div>
+      <div class="row">
+        <div class="col-md-4">
+          <img class="img-responsive padding" src="img/grid1.jpg">
         </div>
-        <!-- /.row -->
+        <div class="col-md-4">
+          <h3 class="gridtext">“Tényleg igazi<br> növény van <br>a nyakadban???”</h3>
+        </div>
+        <div class="col-md-4">
+          <img class="img-responsive padding" src="img/grid2.jpg">
+        </div>
+      </div>
 
-        <!-- Projects Row -->
-        <div class="row">
-          <div class="col-md-2 col-lg-2">
-          </div>
-          <div class="col-md-3 col-sm-4">
-            <div id='product-component-6ef73e58966' class="product"></div>
+      <div class="row">
+        <div class="col-md-4">
+          <h3 class="bottomgridtext">3D<br>nyomtatott<br>ékszerek</h3>
+        </div>
+        <div class="col-md-4">
+          <img class="img-responsive padding" src="img/grid3.jpg">
+        </div>
+        <div class="col-md-4">
+          <h3 class="bottomgridtext">Városi<br>dzsungel</h3>
+        </div>
+      </div>
+
+      <!-- end -->
+
+      <!-- store -->
+      <div>
+        <hr>
+        <hr>
+        <h2>Termékeink</h2>
+        <h4 class="productnameheader"> Nyakláncok</h4>
+
+      </div>
+      <div class="row">
+        <div class="col-md-3 col-sm-6">
+                      <div class="storepadding" id='product-component-ad642531d7d'></div>
+          <script type="text/javascript">
+          /*<![CDATA[*/
+
+          (function () {
+            var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+            if (window.ShopifyBuy) {
+              if (window.ShopifyBuy.UI) {
+                ShopifyBuyInit();
+              } else {
+                loadScript();
+              }
+            } else {
+              loadScript();
+            }
+
+            function loadScript() {
+              var script = document.createElement('script');
+              script.async = true;
+              script.src = scriptURL;
+              (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+              script.onload = ShopifyBuyInit;
+            }
+
+            function ShopifyBuyInit() {
+              var client = ShopifyBuy.buildClient({
+                domain: 'weplant3d.myshopify.com',
+                apiKey: 'f6d05d4f88c730b725475f5b15c583ac',
+                appId: '6',
+              });
+
+              ShopifyBuy.UI.onReady(client).then(function (ui) {
+                ui.createComponent('product', {
+                  id: [9976512899],
+                  node: document.getElementById('product-component-ad642531d7d'),
+                  moneyFormat: '%7B%7Bamount_no_decimals_with_comma_separator%7D%7D',
+                  options: {
+            "product": {
+              "variantId": "all",
+              "width": "240px",
+              "contents": {
+                "imgWithCarousel": false,
+                "variantTitle": false,
+                "description": false,
+                "buttonWithQuantity": true,
+                "button": false,
+                "quantity": false
+              },
+              "text": {
+                "button": "Kosárba"
+              },
+              "styles": {
+                "product": {
+                  "text-align": "left",
+                  "@media (min-width: 601px)": {
+                    "max-width": "100%",
+                    "margin-left": "0",
+                    "margin-bottom": "50px"
+                  }
+                },
+                "button": {
+                  "background-color": "#8be4e4",
+                  "font-size": "15px",
+                  "padding-top": "15.5px",
+                  "padding-bottom": "15.5px",
+                  ":hover": {
+                    "background-color": "#7dcdcd"
+                  },
+                  "border-radius": "6px",
+                  ":focus": {
+                    "background-color": "#7dcdcd"
+                  }
+                },
+                "quantityInput": {
+                  "font-size": "15px",
+                  "padding-top": "15.5px",
+                  "padding-bottom": "15.5px"
+                },
+                "compareAt": {
+                  "font-size": "12px"
+                }
+              }
+            },
+            "cart": {
+              "contents": {
+                "button": true
+              },
+              "text": {
+                "title": "Kosár",
+                "total": "Részösszeg",
+                "notice": "A szállítást és a kupon kódokat a fizetésnél adhatod meg",
+                "button": "Fizetés",
+                "empty": "A kosarad üres"
+              },
+              "styles": {
+                "button": {
+                  "background-color": "#8be4e4",
+                  "font-size": "15px",
+                  "padding-top": "15.5px",
+                  "padding-bottom": "15.5px",
+                  ":hover": {
+                    "background-color": "#7dcdcd"
+                  },
+                  "border-radius": "6px",
+                  ":focus": {
+                    "background-color": "#7dcdcd"
+                  }
+                },
+                "footer": {
+                  "background-color": "#ffffff"
+                }
+              }
+            },
+            "modalProduct": {
+              "contents": {
+                "img": false,
+                "imgWithCarousel": true,
+                "variantTitle": false,
+                "buttonWithQuantity": true,
+                "button": false,
+                "quantity": false
+              },
+              "styles": {
+                "product": {
+                  "@media (min-width: 601px)": {
+                    "max-width": "100%",
+                    "margin-left": "0px",
+                    "margin-bottom": "0px"
+                  }
+                },
+                "button": {
+                  "background-color": "#8be4e4",
+                  "font-size": "15px",
+                  "padding-top": "15.5px",
+                  "padding-bottom": "15.5px",
+                  ":hover": {
+                    "background-color": "#7dcdcd"
+                  },
+                  "border-radius": "6px",
+                  ":focus": {
+                    "background-color": "#7dcdcd"
+                  }
+                },
+                "quantityInput": {
+                  "font-size": "15px",
+                  "padding-top": "15.5px",
+                  "padding-bottom": "15.5px"
+                }
+              }
+            },
+            "toggle": {
+              "styles": {
+                "toggle": {
+                  "background-color": "#8be4e4",
+                  ":hover": {
+                    "background-color": "#7dcdcd"
+                  },
+                  ":focus": {
+                    "background-color": "#7dcdcd"
+                  }
+                },
+                "count": {
+                  "color": "#ffffff",
+                  ":hover": {
+                    "color": "#ffffff"
+                  },
+                  "font-size": "15px"
+                },
+                "iconPath": {
+                  "fill": "#ffffff"
+                }
+              }
+            },
+            "productSet": {
+              "styles": {
+                "products": {
+                  "@media (min-width: 601px)": {
+                    "margin-left": "-20px"
+                  }
+                }
+              }
+            }
+          }
+                });
+              });
+            }
+          })();
+          /*]]>*/
+          </script>
+        </div>
+        <div class="col-md-3 col-sm-6">
+           <div class="storepadding" id='product-component-3b71dc841d3'></div>
+
 <script type="text/javascript">
 /*<![CDATA[*/
 
 (function () {
-var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
-if (window.ShopifyBuy) {
-if (window.ShopifyBuy.UI) {
-ShopifyBuyInit();
-} else {
-loadScript();
-}
-} else {
-loadScript();
-}
+  var scriptURL = 'buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
 
-function loadScript() {
-var script = document.createElement('script');
-script.async = true;
-script.src = scriptURL;
-(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
-script.onload = ShopifyBuyInit;
-}
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
 
-function ShopifyBuyInit() {
-var client = ShopifyBuy.buildClient({
-domain: 'weplant3d.myshopify.com',
-apiKey: 'f6d05d4f88c730b725475f5b15c583ac',
-appId: '6',
-});
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'weplant3d.myshopify.com',
+      apiKey: 'f6d05d4f88c730b725475f5b15c583ac',
+      appId: '6',
+    });
 
-ShopifyBuy.UI.onReady(client).then(function (ui) {
-ui.createComponent('product', {
-id: [9976512899],
-node: document.getElementById('product-component-6ef73e58966'),
-moneyFormat: '%7B%7Bamount_no_decimals_with_comma_separator%7D%7D',
-options: {
-"product": {
-"variantId": "all",
-"contents": {
-"imgWithCarousel": false,
-"variantTitle": false,
-"description": false,
-"buttonWithQuantity": false,
-"quantity": false
-},
-"text": {
-"button": "Kosárba"
-},
-"styles": {
-"product": {
-"@media (min-width: 601px)": {
-"max-width": "100%",
-"margin-left": "0",
-"margin-bottom": "50px"
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('product', {
+        id: [9986045763],
+        node: document.getElementById('product-component-3b71dc841d3'),
+        moneyFormat: '%7B%7Bamount_no_decimals_with_comma_separator%7D%7D',
+        options: {
+  "product": {
+    "variantId": "all",
+    "width": "240px",
+    "contents": {
+      "imgWithCarousel": false,
+      "variantTitle": false,
+      "description": false,
+      "buttonWithQuantity": true,
+      "button": false,
+      "quantity": false
+    },
+    "text": {
+      "button": "Kosárba"
+    },
+    "styles": {
+      "product": {
+        "text-align": "left",
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0",
+          "margin-bottom": "50px"
+        }
+      },
+      "button": {
+        "background-color": "#8be4e4",
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px",
+        ":hover": {
+          "background-color": "#7dcdcd"
+        },
+        "border-radius": "6px",
+        ":focus": {
+          "background-color": "#7dcdcd"
+        }
+      },
+      "quantityInput": {
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px"
+      },
+      "compareAt": {
+        "font-size": "12px"
+      }
+    }
+  },
+  "cart": {
+    "contents": {
+      "button": true
+    },
+    "text": {
+      "title": "Kosár",
+      "total": "Részösszeg",
+      "notice": "A szállítást és a kupon kódokat a fizetésnél adhatod meg",
+      "button": "Fizetés",
+      "empty": "A kosarad üres"
+    },
+    "styles": {
+      "button": {
+        "background-color": "#8be4e4",
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px",
+        ":hover": {
+          "background-color": "#7dcdcd"
+        },
+        "border-radius": "6px",
+        ":focus": {
+          "background-color": "#7dcdcd"
+        }
+      },
+      "footer": {
+        "background-color": "#ffffff"
+      }
+    }
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "variantTitle": false,
+      "buttonWithQuantity": true,
+      "button": false,
+      "quantity": false
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      "button": {
+        "background-color": "#8be4e4",
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px",
+        ":hover": {
+          "background-color": "#7dcdcd"
+        },
+        "border-radius": "6px",
+        ":focus": {
+          "background-color": "#7dcdcd"
+        }
+      },
+      "quantityInput": {
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px"
+      }
+    }
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "background-color": "#8be4e4",
+        ":hover": {
+          "background-color": "#7dcdcd"
+        },
+        ":focus": {
+          "background-color": "#7dcdcd"
+        }
+      },
+      "count": {
+        "color": "#ffffff",
+        ":hover": {
+          "color": "#ffffff"
+        },
+        "font-size": "15px"
+      },
+      "iconPath": {
+        "fill": "#ffffff"
+      }
+    }
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-20px"
+        }
+      }
+    }
+  }
 }
-},
-"button": {
-"background-color": "#5cd7fd",
-":hover": {
-"background-color": "#53c2e4"
-},
-"border-radius": "6px",
-":focus": {
-"background-color": "#53c2e4"
-}
-},
-"compareAt": {
-"font-size": "12px"
-}
-}
-},
-"cart": {
-"contents": {
-"button": true
-},
-"text": {
-"title": "Kosár",
-"total": "Részösszeg",
-"notice": "A szállítást és a kupon kódokat a fizetésnél adhatod meg",
-"button": "Fizetés",
-"empty": "A kosarad üres"
-},
-"styles": {
-"button": {
-"background-color": "#5cd7fd",
-":hover": {
-"background-color": "#53c2e4"
-},
-"border-radius": "6px",
-":focus": {
-"background-color": "#53c2e4"
-}
-},
-"footer": {
-"background-color": "#ffffff"
-}
-}
-},
-"modalProduct": {
-"contents": {
-"img": false,
-"imgWithCarousel": true,
-"variantTitle": false,
-"buttonWithQuantity": true,
-"button": false,
-"quantity": false
-},
-"styles": {
-"product": {
-"@media (min-width: 601px)": {
-"max-width": "100%",
-"margin-left": "0px",
-"margin-bottom": "0px"
-}
-},
-"button": {
-"background-color": "#5cd7fd",
-":hover": {
-"background-color": "#53c2e4"
-},
-"border-radius": "6px",
-":focus": {
-"background-color": "#53c2e4"
-}
-}
-}
-},
-"toggle": {
-"styles": {
-"toggle": {
-"background-color": "#5cd7fd",
-":hover": {
-"background-color": "#53c2e4"
-},
-":focus": {
-"background-color": "#53c2e4"
-}
-}
-}
-},
-"productSet": {
-"styles": {
-"products": {
-"@media (min-width: 601px)": {
-"margin-left": "-20px"
-}
-}
-}
-}
-}
-});
-});
-}
+      });
+    });
+  }
 })();
 /*]]>*/
 </script>
-          </div>
-          <div class="col-md-3 col-sm-4">
-                                <div id='product-component-965c78608c5' class="product"></div>
-                    <script type="text/javascript">
-                    /*<![CDATA[*/
-
-                    (function () {
-                    var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
-                    if (window.ShopifyBuy) {
-                    if (window.ShopifyBuy.UI) {
-                    ShopifyBuyInit();
-                    } else {
-                    loadScript();
-                    }
-                    } else {
-                    loadScript();
-                    }
-
-                    function loadScript() {
-                    var script = document.createElement('script');
-                    script.async = true;
-                    script.src = scriptURL;
-                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
-                    script.onload = ShopifyBuyInit;
-                    }
-
-                    function ShopifyBuyInit() {
-                    var client = ShopifyBuy.buildClient({
-                    domain: 'weplant3d.myshopify.com',
-                    apiKey: 'f6d05d4f88c730b725475f5b15c583ac',
-                    appId: '6',
-                    });
-
-                    ShopifyBuy.UI.onReady(client).then(function (ui) {
-                    ui.createComponent('product', {
-                     id: [9976529411],
-                     node: document.getElementById('product-component-965c78608c5'),
-                     moneyFormat: '%7B%7Bamount_no_decimals_with_comma_separator%7D%7D',
-                     options: {
-                    "product": {
-                    "variantId": "all",
-                    "contents": {
-                    "imgWithCarousel": false,
-                    "variantTitle": false,
-                    "description": false,
-                    "buttonWithQuantity": true,
-                    "button": false,
-                    "quantity": false
-                    },
-                    "text": {
-                    "button": "KOSÁRBA"
-                    },
-                    "styles": {
-                    "product": {
-                     "@media (min-width: 601px)": {
-                       "max-width": "100%",
-                       "margin-left": "0",
-                       "margin-bottom": "50px"
-                     }
-                    },
-                    "button": {
-                     "background-color": "#5cd7fd",
-                     ":hover": {
-                       "background-color": "#53c2e4"
-                     },
-                     "border-radius": "6px",
-                     ":focus": {
-                       "background-color": "#53c2e4"
-                     }
-                    },
-                    "compareAt": {
-                     "font-size": "12px"
-                    }
-                    }
-                    },
-                    "cart": {
-                    "contents": {
-                    "button": true
-                    },
-                    "styles": {
-                    "button": {
-                     "background-color": "#5cd7fd",
-                     ":hover": {
-                       "background-color": "#53c2e4"
-                     },
-                     "border-radius": "6px",
-                     ":focus": {
-                       "background-color": "#53c2e4"
-                     }
-                    },
-                    "footer": {
-                     "background-color": "#ffffff"
-                    }
-                    }
-                    },
-                    "modalProduct": {
-                    "contents": {
-                    "img": false,
-                    "imgWithCarousel": true,
-                    "variantTitle": false,
-                    "buttonWithQuantity": true,
-                    "button": false,
-                    "quantity": false
-                    },
-                    "styles": {
-                    "product": {
-                     "@media (min-width: 601px)": {
-                       "max-width": "100%",
-                       "margin-left": "0px",
-                       "margin-bottom": "0px"
-                     }
-                    },
-                    "button": {
-                     "background-color": "#5cd7fd",
-                     ":hover": {
-                       "background-color": "#53c2e4"
-                     },
-                     "border-radius": "6px",
-                     ":focus": {
-                       "background-color": "#53c2e4"
-                     }
-                    }
-                    }
-                    },
-                    "toggle": {
-                    "styles": {
-                    "toggle": {
-                     "background-color": "#5cd7fd",
-                     ":hover": {
-                       "background-color": "#53c2e4"
-                     },
-                     ":focus": {
-                       "background-color": "#53c2e4"
-                     }
-                    }
-                    }
-                    },
-                    "productSet": {
-                    "styles": {
-                    "products": {
-                     "@media (min-width: 601px)": {
-                       "margin-left": "-20px"
-                     }
-                    }
-                    }
-                    }
-                    }
-                    });
-                    });
-                    }
-                    })();
-                    /*]]>*/
-                    </script>
-               </div>
-
-          <div class="col-md-3 col-sm-4">
-                          <div id='product-component-b2b61605a80' class="product"></div>
-                <script type="text/javascript">
-                /*<![CDATA[*/
-
-                (function () {
-                  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
-                  if (window.ShopifyBuy) {
-                    if (window.ShopifyBuy.UI) {
-                      ShopifyBuyInit();
-                    } else {
-                      loadScript();
-                    }
-                  } else {
-                    loadScript();
-                  }
-
-                  function loadScript() {
-                    var script = document.createElement('script');
-                    script.async = true;
-                    script.src = scriptURL;
-                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
-                    script.onload = ShopifyBuyInit;
-                  }
-
-                  function ShopifyBuyInit() {
-                    var client = ShopifyBuy.buildClient({
-                      domain: 'weplant3d.myshopify.com',
-                      apiKey: 'f6d05d4f88c730b725475f5b15c583ac',
-                      appId: '6',
-                    });
-
-                    ShopifyBuy.UI.onReady(client).then(function (ui) {
-                      ui.createComponent('product', {
-                        id: [9986045763],
-                        node: document.getElementById('product-component-b2b61605a80'),
-                        moneyFormat: '%7B%7Bamount_no_decimals_with_comma_separator%7D%7D',
-                        options: {
-                  "product": {
-                    "variantId": "all",
-                    "contents": {
-                      "imgWithCarousel": false,
-                      "variantTitle": false,
-                      "description": false,
-                      "buttonWithQuantity": false,
-                      "quantity": false
-                    },
-                    "styles": {
-                      "product": {
-                        "@media (min-width: 601px)": {
-                          "max-width": "100%",
-                          "margin-left": "0",
-                          "margin-bottom": "50px"
-                        }
-                      },
-                      "button": {
-                        "background-color": "#5cd7fd",
-                        ":hover": {
-                          "background-color": "#53c2e4"
-                        },
-                        "border-radius": "6px",
-                        ":focus": {
-                          "background-color": "#53c2e4"
-                        }
-                      },
-                      "compareAt": {
-                        "font-size": "12px"
-                      }
-                    }
-                  },
-                  "cart": {
-                    "contents": {
-                      "button": true
-                    },
-                    "styles": {
-                      "button": {
-                        "background-color": "#5cd7fd",
-                        ":hover": {
-                          "background-color": "#53c2e4"
-                        },
-                        "border-radius": "6px",
-                        ":focus": {
-                          "background-color": "#53c2e4"
-                        }
-                      },
-                      "footer": {
-                        "background-color": "#ffffff"
-                      }
-                    }
-                  },
-                  "modalProduct": {
-                    "contents": {
-                      "img": false,
-                      "imgWithCarousel": true,
-                      "variantTitle": false,
-                      "buttonWithQuantity": true,
-                      "button": false,
-                      "quantity": false
-                    },
-                    "styles": {
-                      "product": {
-                        "@media (min-width: 601px)": {
-                          "max-width": "100%",
-                          "margin-left": "0px",
-                          "margin-bottom": "0px"
-                        }
-                      },
-                      "button": {
-                        "background-color": "#5cd7fd",
-                        ":hover": {
-                          "background-color": "#53c2e4"
-                        },
-                        "border-radius": "6px",
-                        ":focus": {
-                          "background-color": "#53c2e4"
-                        }
-                      }
-                    }
-                  },
-                  "toggle": {
-                    "styles": {
-                      "toggle": {
-                        "background-color": "#5cd7fd",
-                        ":hover": {
-                          "background-color": "#53c2e4"
-                        },
-                        ":focus": {
-                          "background-color": "#53c2e4"
-                        }
-                      }
-                    }
-                  },
-                  "productSet": {
-                    "styles": {
-                      "products": {
-                        "@media (min-width: 601px)": {
-                          "margin-left": "-20px"
-                        }
-                      }
-                    }
-                  }
-                }
-                      });
-                    });
-                  }
-                })();
-                /*]]>*/
-                </script>
-          </div>
-
-            <div class="col-md-2 col-lg-2">
-            </div>
         </div>
-
-        <!-- /.row -->
-
-        <!-- Projects Row -->
-        <div class="row">
-          <div class="col-md-2 col-lg-2">
-          </div>
-          <div class="col-md-3 col-sm-4">
-            <div class="product">
-            <div id='product-component-74146431b41'></div>
+        <div class="col-md-3 col-sm-6">
+           <div class="storepadding" id='product-component-3a3b18d4f08'></div>
 <script type="text/javascript">
 /*<![CDATA[*/
 
@@ -619,21 +490,27 @@ options: {
 
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
-        id: [9986318147],
-        node: document.getElementById('product-component-74146431b41'),
+        id: [10448185347],
+        node: document.getElementById('product-component-3a3b18d4f08'),
         moneyFormat: '%7B%7Bamount_no_decimals_with_comma_separator%7D%7D',
         options: {
   "product": {
     "variantId": "all",
+    "width": "240px",
     "contents": {
       "imgWithCarousel": false,
       "variantTitle": false,
       "description": false,
-      "buttonWithQuantity": false,
+      "buttonWithQuantity": true,
+      "button": false,
       "quantity": false
+    },
+    "text": {
+      "button": "Kosárba"
     },
     "styles": {
       "product": {
+        "text-align": "left",
         "@media (min-width: 601px)": {
           "max-width": "100%",
           "margin-left": "0",
@@ -641,14 +518,22 @@ options: {
         }
       },
       "button": {
-        "background-color": "#5cd7fd",
+        "background-color": "#8be4e4",
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px",
         ":hover": {
-          "background-color": "#53c2e4"
+          "background-color": "#7dcdcd"
         },
         "border-radius": "6px",
         ":focus": {
-          "background-color": "#53c2e4"
+          "background-color": "#7dcdcd"
         }
+      },
+      "quantityInput": {
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px"
       },
       "compareAt": {
         "font-size": "12px"
@@ -659,15 +544,25 @@ options: {
     "contents": {
       "button": true
     },
+    "text": {
+      "title": "Kosár",
+      "total": "Részösszeg",
+      "notice": "A szállítást és a kupon kódokat a fizetésnél adhatod meg",
+      "button": "Fizetés",
+      "empty": "A kosarad üres"
+    },
     "styles": {
       "button": {
-        "background-color": "#5cd7fd",
+        "background-color": "#8be4e4",
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px",
         ":hover": {
-          "background-color": "#53c2e4"
+          "background-color": "#7dcdcd"
         },
         "border-radius": "6px",
         ":focus": {
-          "background-color": "#53c2e4"
+          "background-color": "#7dcdcd"
         }
       },
       "footer": {
@@ -693,27 +588,45 @@ options: {
         }
       },
       "button": {
-        "background-color": "#5cd7fd",
+        "background-color": "#8be4e4",
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px",
         ":hover": {
-          "background-color": "#53c2e4"
+          "background-color": "#7dcdcd"
         },
         "border-radius": "6px",
         ":focus": {
-          "background-color": "#53c2e4"
+          "background-color": "#7dcdcd"
         }
+      },
+      "quantityInput": {
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px"
       }
     }
   },
   "toggle": {
     "styles": {
       "toggle": {
-        "background-color": "#5cd7fd",
+        "background-color": "#8be4e4",
         ":hover": {
-          "background-color": "#53c2e4"
+          "background-color": "#7dcdcd"
         },
         ":focus": {
-          "background-color": "#53c2e4"
+          "background-color": "#7dcdcd"
         }
+      },
+      "count": {
+        "color": "#ffffff",
+        ":hover": {
+          "color": "#ffffff"
+        },
+        "font-size": "15px"
+      },
+      "iconPath": {
+        "fill": "#ffffff"
       }
     }
   },
@@ -733,643 +646,994 @@ options: {
 })();
 /*]]>*/
 </script>
-</div>
-
-               </div>
-
-          <div class="col-md-3 col-sm-4">
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeFBGgUCiU_EPnKmVBMzwemQzbyhu8M6BHHsqko9foJ8gaOcA/viewform?entry.1877024659=Tillandsia+funckiana&entry.1047389961&entry.1667615846&entry.1903821581" class="portfolio-box">
-                <img src="img/5.jpg" class="img-responsive" alt="">
-                <div class="portfolio-box-caption">
-                    <div class="portfolio-box-caption-content">
-                      <div class="project-name">
-                          Tillandsia funckiana
-                      </div>
-                        <div class="project-category text-faded">
-                            Léggyökeres
-                        </div>
-                    </div>
-                    <div class="project-price">
-                        Ára: 4500 Ft
-                    </div>
-                </div>
-            </a>
-                    </div>
-
-            <div class="col-md-3 col-sm-4">
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSeFBGgUCiU_EPnKmVBMzwemQzbyhu8M6BHHsqko9foJ8gaOcA/viewform?entry.1877024659=K%C3%B6vir%C3%B3zsa&entry.348224438&entry.1047389961&entry.1903821581&entry.1667615846" class="portfolio-box">
-                  <img src="img/6.jpg" class="img-responsive" alt="">
-                  <div class="portfolio-box-caption">
-                      <div class="portfolio-box-caption-content">
-                        <div class="project-name">
-                            Kövirózsa
-                        </div>
-                          <div class="project-category text-faded">
-                              Pozsgás
-                          </div>
-                      </div>
-                      <div class="project-price">
-                          Ára: 4500 Ft
-                      </div>
-                  </div>
-              </a>
-            </div>
-            <div class="col-md-2 col-lg-2">
-            </div>
         </div>
-        <!-- /.row -->
-        <div class="row">
-          <div class="col-md-2 col-lg-2">
-          </div>
+        <div class="col-md-3 col-sm-6">
+           <div class="storepadding" id='product-component-d573880590b'></div>
+<script type="text/javascript">
+/*<![CDATA[*/
 
-            <div class="col-md-9 col-lg-9">
-                <h1>Gyűrűk</h1>
-                <hr>
-                <p class="store-header">Rendeléshez kattints a Neked tetsző növényre!</p>
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
 
-            </div>
-            <div class="col-md-2 col-lg-2">
-            </div>
-        </div>
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
 
-        <div class="row">
-          <div class="col-md-2 col-lg-2">
-          </div>
-          <div class="col-md-3 col-sm-4">
-                            <div id='product-component-093d66dfd4f'class="product"></div>
-                <script type="text/javascript">
-                /*<![CDATA[*/
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'weplant3d.myshopify.com',
+      apiKey: 'f6d05d4f88c730b725475f5b15c583ac',
+      appId: '6',
+    });
 
-                (function () {
-                var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
-                if (window.ShopifyBuy) {
-                if (window.ShopifyBuy.UI) {
-                ShopifyBuyInit();
-                } else {
-                loadScript();
-                }
-                } else {
-                loadScript();
-                }
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('product', {
+        id: [10448282115],
+        node: document.getElementById('product-component-d573880590b'),
+        moneyFormat: '%7B%7Bamount_no_decimals_with_comma_separator%7D%7D',
+        options: {
+  "product": {
+    "variantId": "all",
+    "width": "240px",
+    "contents": {
+      "imgWithCarousel": false,
+      "variantTitle": false,
+      "description": false,
+      "buttonWithQuantity": true,
+      "button": false,
+      "quantity": false
+    },
+    "text": {
+      "button": "Kosárba"
+    },
+    "styles": {
+      "product": {
+        "text-align": "left",
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0",
+          "margin-bottom": "50px"
+        }
+      },
+      "button": {
+        "background-color": "#8be4e4",
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px",
+        ":hover": {
+          "background-color": "#7dcdcd"
+        },
+        "border-radius": "6px",
+        ":focus": {
+          "background-color": "#7dcdcd"
+        }
+      },
+      "quantityInput": {
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px"
+      },
+      "compareAt": {
+        "font-size": "12px"
+      }
+    }
+  },
+  "cart": {
+    "contents": {
+      "button": true
+    },
+    "text": {
+      "title": "Kosár",
+      "total": "Részösszeg",
+      "notice": "A szállítást és a kupon kódokat a fizetésnél adhatod meg",
+      "button": "Fizetés",
+      "empty": "A kosarad üres"
+    },
+    "styles": {
+      "button": {
+        "background-color": "#8be4e4",
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px",
+        ":hover": {
+          "background-color": "#7dcdcd"
+        },
+        "border-radius": "6px",
+        ":focus": {
+          "background-color": "#7dcdcd"
+        }
+      },
+      "footer": {
+        "background-color": "#ffffff"
+      }
+    }
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "variantTitle": false,
+      "buttonWithQuantity": true,
+      "button": false,
+      "quantity": false
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      "button": {
+        "background-color": "#8be4e4",
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px",
+        ":hover": {
+          "background-color": "#7dcdcd"
+        },
+        "border-radius": "6px",
+        ":focus": {
+          "background-color": "#7dcdcd"
+        }
+      },
+      "quantityInput": {
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px"
+      }
+    }
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "background-color": "#8be4e4",
+        ":hover": {
+          "background-color": "#7dcdcd"
+        },
+        ":focus": {
+          "background-color": "#7dcdcd"
+        }
+      },
+      "count": {
+        "color": "#ffffff",
+        ":hover": {
+          "color": "#ffffff"
+        },
+        "font-size": "15px"
+      },
+      "iconPath": {
+        "fill": "#ffffff"
+      }
+    }
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-20px"
+        }
+      }
+    }
+  }
+}
+      });
+    });
+  }
+})();
+/*]]>*/
+</script>
+    </div>
+    </div>
 
-                function loadScript() {
-                var script = document.createElement('script');
-                script.async = true;
-                script.src = scriptURL;
-                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
-                script.onload = ShopifyBuyInit;
-                }
+       <div>
+       <hr>
 
-                function ShopifyBuyInit() {
-                var client = ShopifyBuy.buildClient({
-                domain: 'weplant3d.myshopify.com',
-                apiKey: 'f6d05d4f88c730b725475f5b15c583ac',
-                appId: '6',
-                });
-
-                ShopifyBuy.UI.onReady(client).then(function (ui) {
-                ui.createComponent('product', {
-                id: [9976573251],
-                node: document.getElementById('product-component-093d66dfd4f'),
-                moneyFormat: '%7B%7Bamount_no_decimals_with_comma_separator%7D%7D',
-                options: {
-                "product": {
-                "variantId": "all",
-                "contents": {
-                "imgWithCarousel": false,
-                "variantTitle": false,
-                "description": false,
-                "buttonWithQuantity": false,
-                "quantity": false
-                },
-                "styles": {
-                "product": {
-                "@media (min-width: 601px)": {
-                "max-width": "100%",
-                "margin-left": "0",
-                "margin-bottom": "50px"
-                }
-                },
-                "button": {
-                "background-color": "#5cd7fd",
-                ":hover": {
-                "background-color": "#53c2e4"
-                },
-                "border-radius": "6px",
-                ":focus": {
-                "background-color": "#53c2e4"
-                }
-                },
-                "compareAt": {
-                "font-size": "12px"
-                }
-                }
-                },
-                "cart": {
-                "contents": {
-                "button": true
-                },
-                "styles": {
-                "button": {
-                "background-color": "#5cd7fd",
-                ":hover": {
-                "background-color": "#53c2e4"
-                },
-                "border-radius": "6px",
-                ":focus": {
-                "background-color": "#53c2e4"
-                }
-                },
-                "footer": {
-                "background-color": "#ffffff"
-                }
-                }
-                },
-                "modalProduct": {
-                "contents": {
-                "img": false,
-                "imgWithCarousel": true,
-                "variantTitle": false,
-                "buttonWithQuantity": true,
-                "button": false,
-                "quantity": false
-                },
-                "styles": {
-                "product": {
-                "@media (min-width: 601px)": {
-                "max-width": "100%",
-                "margin-left": "0px",
-                "margin-bottom": "0px"
-                }
-                },
-                "button": {
-                "background-color": "#5cd7fd",
-                ":hover": {
-                "background-color": "#53c2e4"
-                },
-                "border-radius": "6px",
-                ":focus": {
-                "background-color": "#53c2e4"
-                }
-                }
-                }
-                },
-                "toggle": {
-                "styles": {
-                "toggle": {
-                "background-color": "#5cd7fd",
-                ":hover": {
-                "background-color": "#53c2e4"
-                },
-                ":focus": {
-                "background-color": "#53c2e4"
-                }
-                }
-                }
-                },
-                "productSet": {
-                "styles": {
-                "products": {
-                "@media (min-width: 601px)": {
-                "margin-left": "-20px"
-                }
-                }
-                }
-                }
-                }
-                });
-                });
-                }
-                })();
-                /*]]>*/
-                </script>
-               </div>
-                 <div class="col-md-3 col-sm-4">
-                   <div id='product-component-6741600c4f7' class="product"></div>
-                   <script type="text/javascript">
-                   /*<![CDATA[*/
-
-                   (function () {
-                     var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
-                     if (window.ShopifyBuy) {
-                       if (window.ShopifyBuy.UI) {
-                         ShopifyBuyInit();
-                       } else {
-                         loadScript();
-                       }
-                     } else {
-                       loadScript();
-                     }
-
-                     function loadScript() {
-                       var script = document.createElement('script');
-                       script.async = true;
-                       script.src = scriptURL;
-                       (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
-                       script.onload = ShopifyBuyInit;
-                     }
-
-                     function ShopifyBuyInit() {
-                       var client = ShopifyBuy.buildClient({
-                         domain: 'weplant3d.myshopify.com',
-                         apiKey: 'f6d05d4f88c730b725475f5b15c583ac',
-                         appId: '6',
-                       });
-
-                       ShopifyBuy.UI.onReady(client).then(function (ui) {
-                         ui.createComponent('product', {
-                           id: [9976653635],
-                           node: document.getElementById('product-component-6741600c4f7'),
-                           moneyFormat: '%7B%7Bamount_no_decimals_with_comma_separator%7D%7D',
-                           options: {
-                     "product": {
-                       "variantId": "all",
-                       "contents": {
-                         "imgWithCarousel": false,
-                         "variantTitle": false,
-                         "description": false,
-                         "buttonWithQuantity": false,
-                         "quantity": false
-                       },
-                       "styles": {
-                         "product": {
-                           "@media (min-width: 601px)": {
-                             "max-width": "100%",
-                             "margin-left": "0",
-                             "margin-bottom": "50px"
-                           }
-                         },
-                         "button": {
-                           "background-color": "#5cd7fd",
-                           ":hover": {
-                             "background-color": "#53c2e4"
-                           },
-                           "border-radius": "6px",
-                           ":focus": {
-                             "background-color": "#53c2e4"
-                           }
-                         },
-                         "compareAt": {
-                           "font-size": "12px"
-                         }
-                       }
-                     },
-                     "cart": {
-                       "contents": {
-                         "button": true
-                       },
-                       "styles": {
-                         "button": {
-                           "background-color": "#5cd7fd",
-                           ":hover": {
-                             "background-color": "#53c2e4"
-                           },
-                           "border-radius": "6px",
-                           ":focus": {
-                             "background-color": "#53c2e4"
-                           }
-                         },
-                         "footer": {
-                           "background-color": "#ffffff"
-                         }
-                       }
-                     },
-                     "modalProduct": {
-                       "contents": {
-                         "img": false,
-                         "imgWithCarousel": true,
-                         "variantTitle": false,
-                         "buttonWithQuantity": true,
-                         "button": false,
-                         "quantity": false
-                       },
-                       "styles": {
-                         "product": {
-                           "@media (min-width: 601px)": {
-                             "max-width": "100%",
-                             "margin-left": "0px",
-                             "margin-bottom": "0px"
-                           }
-                         },
-                         "button": {
-                           "background-color": "#5cd7fd",
-                           ":hover": {
-                             "background-color": "#53c2e4"
-                           },
-                           "border-radius": "6px",
-                           ":focus": {
-                             "background-color": "#53c2e4"
-                           }
-                         }
-                       }
-                     },
-                     "toggle": {
-                       "styles": {
-                         "toggle": {
-                           "background-color": "#5cd7fd",
-                           ":hover": {
-                             "background-color": "#53c2e4"
-                           },
-                           ":focus": {
-                             "background-color": "#53c2e4"
-                           }
-                         }
-                       }
-                     },
-                     "productSet": {
-                       "styles": {
-                         "products": {
-                           "@media (min-width: 601px)": {
-                             "margin-left": "-20px"
-                           }
-                         }
-                       }
-                     }
-                   }
-                         });
-                       });
-                     }
-                   })();
-                   /*]]>*/
-                   </script>
-                 </div>
-             </div>
-
-
-
-
-
-
-
-        <div class="row">
-          <div class="col-md-2 col-lg-2">
-          </div>
-
-            <div class="col-md-9 col-lg-9">
-                <h1>Gyűrűk</h1>
-                <hr>
-                <p class="store-header">Rendeléshez kattints a Neked tetsző növényre!</p>
-
-            </div>
-            <div class="col-md-2 col-lg-2">
-            </div>
-        </div>
-        <!-- /.row -->
-
-        <!-- Projects Row -->
-        <div class="row">
-          <div class="col-md-2 col-lg-2">
-          </div>
-          <div class="col-md-3 col-sm-4">
-                   <a href="https://docs.google.com/forms/d/e/1FAIpQLSeFBGgUCiU_EPnKmVBMzwemQzbyhu8M6BHHsqko9foJ8gaOcA/viewform?entry.1877024659=Tillandsia+ionantha+kituzo&entry.1047389961&entry.1667615846&entry.1903821581" class="portfolio-box">
-                       <img src="img/k1.jpg" class="img-responsive" alt="">
-                       <div class="portfolio-box-caption">
-                           <div class="portfolio-box-caption-content">
-                             <div class="project-name">
-                                 Tillandsia ionantha
-                             </div>
-
-                               <div class="project-category text-faded">
-                                   Léggyökeres
-                               </div>
-                           </div>
-                           <div class="project-price">
-                               Ára: 3500 Ft
-                           </div>
-                       </div>
-                   </a>
-               </div>
-
-          <div class="col-md-3 col-sm-4">
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeFBGgUCiU_EPnKmVBMzwemQzbyhu8M6BHHsqko9foJ8gaOcA/viewform?entry.1877024659=K%C3%B6vir%C3%B3zsa+kituzo&entry.348224438&entry.1047389961&entry.1903821581&entry.1667615846" class="portfolio-box">
-                <img src="img/k2.jpg" class="img-responsive" alt="">
-                <div class="portfolio-box-caption">
-                    <div class="portfolio-box-caption-content">
-                      <div class="project-name">
-                          Kövirózsa
-                      </div>
-                        <div class="project-category text-faded">
-                            Pozsgás
-                        </div>
-                    </div>
-                    <div class="project-price">
-                        Ára: 3500 Ft
-                    </div>
-                </div>
-            </a>
-                    </div>
-
-            <div class="col-md-3 col-sm-4">
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSeFBGgUCiU_EPnKmVBMzwemQzbyhu8M6BHHsqko9foJ8gaOcA/viewform?entry.1877024659=Tillandsia+funckiana+kituzo&entry.1047389961&entry.1667615846&entry.1903821581" class="portfolio-box">
-                  <img src="img/k3.jpg" class="img-responsive" alt="">
-                  <div class="portfolio-box-caption">
-                      <div class="portfolio-box-caption-content">
-                        <div class="project-name">
-                            Tillandsia funckiana
-                        </div>
-                          <div class="project-category text-faded">
-                              Léggyökeres
-                          </div>
-                      </div>
-                      <div class="project-price">
-                          Ára: 3500 Ft
-                      </div>
-                  </div>
-              </a>
-            </div>
-
-            <div class="col-md-2 col-lg-2">
-            </div>
-        </div>
-
-        <!-- /.row -->
-
-        <!-- Projects Row -->
-        <div class="row">
-          <div class="col-md-2 col-lg-2">
-          </div>
-          <div class="col-md-3 col-sm-4">
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeFBGgUCiU_EPnKmVBMzwemQzbyhu8M6BHHsqko9foJ8gaOcA/viewform?entry.1877024659=K%C3%B6vir%C3%B3zsa+kituzo&entry.348224438&entry.1047389961&entry.1903821581&entry.1667615846" class="portfolio-box">
-                <img src="img/k4.jpg" class="img-responsive" alt="">
-                <div class="portfolio-box-caption">
-                    <div class="portfolio-box-caption-content">
-                      <div class="project-name">
-                          Kövirózsa
-                      </div>
-                        <div class="project-category text-faded">
-                            Pozsgás
-                        </div>
-                    </div>
-                    <div class="project-price">
-                        Ára: 3500 Ft
-                    </div>
-                </div>
-            </a>
-               </div>
-
-          <div class="col-md-3 col-sm-4">
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeFBGgUCiU_EPnKmVBMzwemQzbyhu8M6BHHsqko9foJ8gaOcA/viewform?entry.1877024659=Tillandsia+funckiana+kituzo&entry.1047389961&entry.1667615846&entry.1903821581" class="portfolio-box">
-                <img src="img/k5.jpg" class="img-responsive" alt="">
-                <div class="portfolio-box-caption">
-                    <div class="portfolio-box-caption-content">
-                      <div class="project-name">
-                          Tillandsia funckiana
-                      </div>
-                        <div class="project-category text-faded">
-                            Léggyökeres
-                        </div>
-                    </div>
-                    <div class="project-price">
-                        Ára: 3500 Ft
-                    </div>
-                </div>
-            </a>
-                    </div>
-
-            <div class="col-md-3 col-sm-4">
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSeFBGgUCiU_EPnKmVBMzwemQzbyhu8M6BHHsqko9foJ8gaOcA/viewform?entry.1877024659=Tillandsia+albida+kituzo&entry.1047389961&entry.1667615846&entry.1903821581" class="portfolio-box">
-                  <img src="img/k6.jpg" class="img-responsive" alt="">
-                  <div class="portfolio-box-caption">
-                      <div class="portfolio-box-caption-content">
-                        <div class="project-name">
-                            Tillandsia albida
-                        </div>
-                          <div class="project-category text-faded">
-                              Léggyökeres
-                          </div>
-                      </div>
-                      <div class="project-price">
-                          Ára: 3500 Ft
-                      </div>
-                  </div>
-              </a>
-            </div>
-            <div class="col-md-2 col-lg-2">
-            </div>
-          </div>
-
-
-
-        <div class="row">
-          <div class="col-md-2 col-lg-2">
-          </div>
-
-            <div class="col-md-9 col-lg-9">
-              <hr>
-                <h5 class="foot-text">A növény kiválasztásával az oldal átirányít a
-                  rendelőlapra, ahol megadhatod a medál színét, illetve hogy hol szeretnéd átvenni
-                  a nyakláncodat. A rendelés elküldése után e-mailben fogunk keresni, hogy pontosíthassuk az átvétel részleteit.
-                  Kérlek vegyétek figyelembe, hogy jelenleg csak személyes átvételre van lehetőség Budapesten,
-                  fizetni pedig csak készpénzzel tudtok!
-                </h5>
-            </div>
-            <div class="col-md-2 col-lg-2">
-            </div>
-        </div>
-
-
-        <!-- Projects Row
-        <div class="row">
-          <div class="col-lg-2">
-          </div>
-          <div class="col-md-3 col-sm-4">
-                   <a href="img/portfolio/fullsize/2.jpg" class="portfolio-box">
-                       <img src="http://placehold.it/350x350" class="img-responsive" alt="">
-                       <div class="portfolio-box-caption">
-                           <div class="portfolio-box-caption-content">
-                             <div class="project-name">
-                                 Project Name
-                             </div>
-                               <div class="project-category text-faded">
-                                   Category
-                               </div>
-                           </div>
-                       </div>
-                   </a>
-               </div>
-
-          <div class="col-md-3 col-sm-4">
-                        <a href="img/portfolio/fullsize/2.jpg" class="portfolio-box">
-                            <img src="http://placehold.it/350x350" class="img-responsive" alt="">
-                            <div class="portfolio-box-caption">
-                                <div class="portfolio-box-caption-content">
-                                  <div class="project-name">
-                                      Project Name
-                                  </div>
-                                    <div class="project-category text-faded">
-                                        Category
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-
-            <div class="col-md-3 col-sm-4">
-                             <a href="img/portfolio/fullsize/2.jpg" class="portfolio-box">
-                                 <img src="http://placehold.it/350x350" class="img-responsive" alt="">
-                                 <div class="portfolio-box-caption">
-                                     <div class="portfolio-box-caption-content">
-                                       <div class="project-name">
-                                           Project Name
-                                       </div>
-                                         <div class="project-category text-faded">
-                                             Category
-                                         </div>
-                                   </div>
-                           </div>
-                       </a>
-            </div>
-
-            <div class="col-lg-2">
-            </div>
-        </div>
+      <h4 class="productnameheader"> Kiegészítők</h4>
       </div>
 
-        row -->
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <ul class="list-inline">
+      <div class="row">
+        <div class="col-md-3 col-sm-6">
+         <div class="storepadding" id='product-component-caceeb98cd8'></div>
+<script type="text/javascript">
+/*<![CDATA[*/
 
-                      <li>
-                        <a href="https://www.facebook.com/weplant3d"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i>&nbsp;</a>
-                      </li>
-                      <li class="footer-menu-divider">&sdot;</li>
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
 
-                      <li>
-                        <a href="https://www.instagram.com/plant3d/"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i>&nbsp;</a>
-                      </li>
-                      <li class="footer-menu-divider">&sdot;</li>
-                      <li>
-                        <a href="contact.html">Elérhetőségünk</a>
-                      </li>
-                    </ul>
-                    <a href="mailto:weplant3d@gmail.com" target="_top">weplant3d@gmail.com</a>
-                    <p class="copyright text-muted small">Köszönjük, hogy benéztél hozzánk!</p>
-                </div>
-            </div>
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'weplant3d.myshopify.com',
+      apiKey: 'f6d05d4f88c730b725475f5b15c583ac',
+      appId: '6',
+    });
+
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('product', {
+        id: [9976573251],
+        node: document.getElementById('product-component-caceeb98cd8'),
+        moneyFormat: '%7B%7Bamount_no_decimals_with_comma_separator%7D%7D',
+        options: {
+  "product": {
+    "variantId": "all",
+    "width": "240px",
+    "contents": {
+      "imgWithCarousel": false,
+      "variantTitle": false,
+      "description": false,
+      "buttonWithQuantity": true,
+      "button": false,
+      "quantity": false
+    },
+    "text": {
+      "button": "Kosárba"
+    },
+    "styles": {
+      "product": {
+        "text-align": "left",
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0",
+          "margin-bottom": "50px"
+        }
+      },
+      "button": {
+        "background-color": "#8be4e4",
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px",
+        ":hover": {
+          "background-color": "#7dcdcd"
+        },
+        "border-radius": "6px",
+        ":focus": {
+          "background-color": "#7dcdcd"
+        }
+      },
+      "quantityInput": {
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px"
+      },
+      "compareAt": {
+        "font-size": "12px"
+      }
+    }
+  },
+  "cart": {
+    "contents": {
+      "button": true
+    },
+    "text": {
+      "title": "Kosár",
+      "total": "Részösszeg",
+      "notice": "A szállítást és a kupon kódokat a fizetésnél adhatod meg",
+      "button": "Fizetés",
+      "empty": "A kosarad üres"
+    },
+    "styles": {
+      "button": {
+        "background-color": "#8be4e4",
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px",
+        ":hover": {
+          "background-color": "#7dcdcd"
+        },
+        "border-radius": "6px",
+        ":focus": {
+          "background-color": "#7dcdcd"
+        }
+      },
+      "footer": {
+        "background-color": "#ffffff"
+      }
+    }
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "variantTitle": false,
+      "buttonWithQuantity": true,
+      "button": false,
+      "quantity": false
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      "button": {
+        "background-color": "#8be4e4",
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px",
+        ":hover": {
+          "background-color": "#7dcdcd"
+        },
+        "border-radius": "6px",
+        ":focus": {
+          "background-color": "#7dcdcd"
+        }
+      },
+      "quantityInput": {
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px"
+      }
+    }
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "background-color": "#8be4e4",
+        ":hover": {
+          "background-color": "#7dcdcd"
+        },
+        ":focus": {
+          "background-color": "#7dcdcd"
+        }
+      },
+      "count": {
+        "color": "#ffffff",
+        ":hover": {
+          "color": "#ffffff"
+        },
+        "font-size": "15px"
+      },
+      "iconPath": {
+        "fill": "#ffffff"
+      }
+    }
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-20px"
+        }
+      }
+    }
+  }
+}
+      });
+    });
+  }
+})();
+/*]]>*/
+</script>
         </div>
+        <div class="col-md-3 col-sm-6">
+         <div class="storepadding" id='product-component-7eb2f974bd9'></div>
+<script type="text/javascript">
+/*<![CDATA[*/
+
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'weplant3d.myshopify.com',
+      apiKey: 'f6d05d4f88c730b725475f5b15c583ac',
+      appId: '6',
+    });
+
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('product', {
+        id: [9976653635],
+        node: document.getElementById('product-component-7eb2f974bd9'),
+        moneyFormat: '%7B%7Bamount_no_decimals_with_comma_separator%7D%7D',
+        options: {
+  "product": {
+    "variantId": "all",
+    "width": "240px",
+    "contents": {
+      "imgWithCarousel": false,
+      "variantTitle": false,
+      "description": false,
+      "buttonWithQuantity": true,
+      "button": false,
+      "quantity": false
+    },
+    "text": {
+      "button": "Kosárba"
+    },
+    "styles": {
+      "product": {
+        "text-align": "left",
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0",
+          "margin-bottom": "50px"
+        }
+      },
+      "button": {
+        "background-color": "#8be4e4",
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px",
+        ":hover": {
+          "background-color": "#7dcdcd"
+        },
+        "border-radius": "6px",
+        ":focus": {
+          "background-color": "#7dcdcd"
+        }
+      },
+      "quantityInput": {
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px"
+      },
+      "compareAt": {
+        "font-size": "12px"
+      }
+    }
+  },
+  "cart": {
+    "contents": {
+      "button": true
+    },
+    "text": {
+      "title": "Kosár",
+      "total": "Részösszeg",
+      "notice": "A szállítást és a kupon kódokat a fizetésnél adhatod meg",
+      "button": "Fizetés",
+      "empty": "A kosarad üres"
+    },
+    "styles": {
+      "button": {
+        "background-color": "#8be4e4",
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px",
+        ":hover": {
+          "background-color": "#7dcdcd"
+        },
+        "border-radius": "6px",
+        ":focus": {
+          "background-color": "#7dcdcd"
+        }
+      },
+      "footer": {
+        "background-color": "#ffffff"
+      }
+    }
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "variantTitle": false,
+      "buttonWithQuantity": true,
+      "button": false,
+      "quantity": false
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      "button": {
+        "background-color": "#8be4e4",
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px",
+        ":hover": {
+          "background-color": "#7dcdcd"
+        },
+        "border-radius": "6px",
+        ":focus": {
+          "background-color": "#7dcdcd"
+        }
+      },
+      "quantityInput": {
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px"
+      }
+    }
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "background-color": "#8be4e4",
+        ":hover": {
+          "background-color": "#7dcdcd"
+        },
+        ":focus": {
+          "background-color": "#7dcdcd"
+        }
+      },
+      "count": {
+        "color": "#ffffff",
+        ":hover": {
+          "color": "#ffffff"
+        },
+        "font-size": "15px"
+      },
+      "iconPath": {
+        "fill": "#ffffff"
+      }
+    }
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-20px"
+        }
+      }
+    }
+  }
+}
+      });
+    });
+  }
+})();
+/*]]>*/
+</script>
+        </div>
+        <div class="col-md-3 col-sm-6">
+
+     <div class="storepadding" id='product-component-8c7c6a4a009'></div>
+<script type="text/javascript">
+/*<![CDATA[*/
+
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'weplant3d.myshopify.com',
+      apiKey: 'f6d05d4f88c730b725475f5b15c583ac',
+      appId: '6',
+    });
+
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('product', {
+        id: [10448723523],
+        node: document.getElementById('product-component-8c7c6a4a009'),
+        moneyFormat: '%7B%7Bamount_no_decimals_with_comma_separator%7D%7D',
+        options: {
+  "product": {
+    "variantId": "all",
+    "width": "240px",
+    "contents": {
+      "imgWithCarousel": false,
+      "variantTitle": false,
+      "description": false,
+      "buttonWithQuantity": true,
+      "button": false,
+      "quantity": false
+    },
+    "text": {
+      "button": "Kosárba"
+    },
+    "styles": {
+      "product": {
+        "text-align": "left",
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0",
+          "margin-bottom": "50px"
+        }
+      },
+      "button": {
+        "background-color": "#8be4e4",
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px",
+        ":hover": {
+          "background-color": "#7dcdcd"
+        },
+        "border-radius": "6px",
+        ":focus": {
+          "background-color": "#7dcdcd"
+        }
+      },
+      "quantityInput": {
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px"
+      },
+      "compareAt": {
+        "font-size": "12px"
+      }
+    }
+  },
+  "cart": {
+    "contents": {
+      "button": true
+    },
+    "text": {
+      "title": "Kosár",
+      "total": "Részösszeg",
+      "notice": "A szállítást és a kupon kódokat a fizetésnél adhatod meg",
+      "button": "Fizetés",
+      "empty": "A kosarad üres"
+    },
+    "styles": {
+      "button": {
+        "background-color": "#8be4e4",
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px",
+        ":hover": {
+          "background-color": "#7dcdcd"
+        },
+        "border-radius": "6px",
+        ":focus": {
+          "background-color": "#7dcdcd"
+        }
+      },
+      "footer": {
+        "background-color": "#ffffff"
+      }
+    }
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "variantTitle": false,
+      "buttonWithQuantity": true,
+      "button": false,
+      "quantity": false
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      "button": {
+        "background-color": "#8be4e4",
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px",
+        ":hover": {
+          "background-color": "#7dcdcd"
+        },
+        "border-radius": "6px",
+        ":focus": {
+          "background-color": "#7dcdcd"
+        }
+      },
+      "quantityInput": {
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px"
+      }
+    }
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "background-color": "#8be4e4",
+        ":hover": {
+          "background-color": "#7dcdcd"
+        },
+        ":focus": {
+          "background-color": "#7dcdcd"
+        }
+      },
+      "count": {
+        "color": "#ffffff",
+        ":hover": {
+          "color": "#ffffff"
+        },
+        "font-size": "15px"
+      },
+      "iconPath": {
+        "fill": "#ffffff"
+      }
+    }
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-20px"
+        }
+      }
+    }
+  }
+}
+      });
+    });
+  }
+})();
+/*]]>*/
+</script>
+        </div>
+        <div class="col-md-3 col-sm-6">
+         <div class="storepadding" id='product-component-b72d9d22448'></div>
+<script type="text/javascript">
+/*<![CDATA[*/
+
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'weplant3d.myshopify.com',
+      apiKey: 'f6d05d4f88c730b725475f5b15c583ac',
+      appId: '6',
+    });
+
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('product', {
+        id: [10448673539],
+        node: document.getElementById('product-component-b72d9d22448'),
+        moneyFormat: '%7B%7Bamount_no_decimals_with_comma_separator%7D%7D',
+        options: {
+  "product": {
+    "variantId": "all",
+    "width": "240px",
+    "contents": {
+      "imgWithCarousel": false,
+      "variantTitle": false,
+      "description": false,
+      "buttonWithQuantity": true,
+      "button": false,
+      "quantity": false
+    },
+    "text": {
+      "button": "Kosárba"
+    },
+    "styles": {
+      "product": {
+        "text-align": "left",
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0",
+          "margin-bottom": "50px"
+        }
+      },
+      "button": {
+        "background-color": "#8be4e4",
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px",
+        ":hover": {
+          "background-color": "#7dcdcd"
+        },
+        "border-radius": "6px",
+        ":focus": {
+          "background-color": "#7dcdcd"
+        }
+      },
+      "quantityInput": {
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px"
+      },
+      "compareAt": {
+        "font-size": "12px"
+      }
+    }
+  },
+  "cart": {
+    "contents": {
+      "button": true
+    },
+    "text": {
+      "title": "Kosár",
+      "total": "Részösszeg",
+      "notice": "A szállítást és a kupon kódokat a fizetésnél adhatod meg",
+      "button": "Fizetés",
+      "empty": "A kosarad üres"
+    },
+    "styles": {
+      "button": {
+        "background-color": "#8be4e4",
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px",
+        ":hover": {
+          "background-color": "#7dcdcd"
+        },
+        "border-radius": "6px",
+        ":focus": {
+          "background-color": "#7dcdcd"
+        }
+      },
+      "footer": {
+        "background-color": "#ffffff"
+      }
+    }
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "variantTitle": false,
+      "buttonWithQuantity": true,
+      "button": false,
+      "quantity": false
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      "button": {
+        "background-color": "#8be4e4",
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px",
+        ":hover": {
+          "background-color": "#7dcdcd"
+        },
+        "border-radius": "6px",
+        ":focus": {
+          "background-color": "#7dcdcd"
+        }
+      },
+      "quantityInput": {
+        "font-size": "15px",
+        "padding-top": "15.5px",
+        "padding-bottom": "15.5px"
+      }
+    }
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "background-color": "#8be4e4",
+        ":hover": {
+          "background-color": "#7dcdcd"
+        },
+        ":focus": {
+          "background-color": "#7dcdcd"
+        }
+      },
+      "count": {
+        "color": "#ffffff",
+        ":hover": {
+          "color": "#ffffff"
+        },
+        "font-size": "15px"
+      },
+      "iconPath": {
+        "fill": "#ffffff"
+      }
+    }
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-20px"
+        }
+      }
+    }
+  }
+}
+      });
+    });
+  }
+})();
+/*]]>*/
+</script>
+        </div>
+      </div>
+      <!-- end -->
+      <hr>
+      <hr>
+
+    </div>
+
+    <footer>
+    <div class="footer-location">
+        <ul>
+          <li><a href="contact.html">Kapcsolat</a></li>
+          <li><a href="contact.html">Általános szerződési feltételek</a></li>
+          <li><a href="https://www.facebook.com/weplant3d">Facebook</a></li>
+          <li><a href="https://www.instagram.com/plant3d/">Instagram</a></li>
+        </ul>
+    </div>
+      <hr>
     </footer>
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
-    <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-86156928-1', 'auto');
-    ga('send', 'pageview');
-
-    </script>
-
-
-</body>
-
+  </body>
 </html>

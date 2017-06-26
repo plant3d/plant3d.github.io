@@ -1,0 +1,117 @@
+.left{
+	float: left;
+}
+.right{
+	float: right;
+	text-align: right;
+}
+.padding{
+	padding: 16px;
+	margin: 0 auto;
+}
+.storepadding{
+	padding-top: 16px;
+	padding-bottom: 16px;
+	margin: 0 auto;
+}
+@media(min-width:992px){
+	.storepadding{
+		padding-top: 0px;
+		padding-bottom: 0px;
+		margin: 0 0;
+	}
+}
+h3{
+	line-height: 36px;
+}
+#logo {
+	width: 200px;
+	margin-top: 20px;
+}
+#headerlinks{
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+.productnameheader{
+	padding-top: 20px;
+	padding-bottom: 12px;
+	color: #999;
+}
+.gridtext{
+	text-align: center;
+	position: relative;
+	padding-bottom: 150px;
+	/*height: 300px;*/
+	transform: translateX(0%) translateY(30%);
+}
+@media(min-width:1200px){
+	.gridtext{
+		padding-bottom: 0px;
+		position: absolute;
+		top:50%;
+		left: 50%;
+		transform: translateX(-50%) translateY(96%);
+		text-align: center;
+	}
+}
+
+.bottomgridtext{
+	text-align: center;
+	position: relative;
+	padding-bottom: 150px;
+	/*height: 300px;*/
+	transform: translateX(0%) translateY(25%);
+}
+
+@media(min-width:992px){
+	.bottomgridtext{
+		padding-bottom: 0px;
+		position: absolute;
+		top:50%;
+		left: 50%;
+		transform: translateX(-50%) translateY(70%);
+		text-align: center;
+	}
+}
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+    color: #444;
+}
+header {
+	margin-top: 48px;
+}
+hr{
+	margin-top: 24px;
+	border-color: #fff;
+}
+
+.footer-location {
+float: left;
+width: 100%;
+padding-right: 20px;
+padding-left: 25px;
+margin: 0 auto;
+text-align: center;
+}
+
+.footer-location ul {
+list-style: none;
+}
+
+.footer-location ul li {
+color: #808080;
+padding-bottom: 3px;
+font-size: 12px;
+font-family: Arial, Helvetica, sans-serif;
+display:inline-block;
+padding-right: 10px;
+}
+
+.texttohide{
+	display: block;
+}
+.showondefault:hover .texttohide{
+	display: none;
+}
